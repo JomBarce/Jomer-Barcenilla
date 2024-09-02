@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jomer Barcenilla</title>
+    <link rel="icon" href="./Images/Logo.png">
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <link rel="stylesheet" type="text/css" href="CSS/animation.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+<body onload="showDivs(1)">
+    <header class="container" onload="foo()">
+        <div class="head">
+            <img src="./Images/Logo.png" class="dark" onclick="goToPage('index.html')">
+            <nav>
+                <a href="index.html#portfolio">Portfolio</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div> 
+    </header>
+    <div id="main" class="flex-center">
+        <div  class="container-center">
+            <img class="self-img" src="./Images/Self-removebg.png" alt="jomer">
+            <div class="self-details">
+                <h1 class="name no-margin">Jomer Allan Barcenilla</h1>
+                <h2 class="highlight no-margin">Software Developer</h2>
+            </div>
+        </div>
+        <div class="text-center">
+            <h3 class="no-margin">
+                I'm Jomer, a passionate and adaptable Software Developer who is aiming for growth and learning 
+                with a solid foundation in Computer Science. My journey in the realm of technology has been 
+                dynamic, marked by diverse experiences across Game, Web, API, and App Development.
+            </h3>
+            <h3>
+                <span class="highlight bold">Career Objectives:</span> To be able to improve and further develop my skills in 
+                programming and development. With a focus on software development, algorithm design, and machine learning, 
+                I aspire to create impactful solutions that address real-world problems and contribute to the everevolving 
+                field of computer science.
+            </h3>
+            <div class="button-center">
+                <button class="contact-button" onclick="goToSite('https://mail.google.com/mail/?view=cm&fs=1&to=jomerbarcenilla@gmail.com')" >Get in Touch</button>
+            </div>
+        </div>
+    </div>
+    <!-- <div id="portfolio" class="container">
+        <div class="title">
+            <h1>Portfolio</h1>
+        </div>        
+        <div class="item-center">
+            <img class="slides" src="./Images/OscarGyotaku.jpg" style="width:100%">
+            <img class="slides" src="./Images/Self.JPG" style="width:100%">
+            <img class="slides" src="./Images/Logo.png" style="width:100%"> 
+        </div>
+        <div class="button-center">
+            <button class="lr-button" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="lr-button" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+    </div> -->
+    <div id="about" class="container">
+        <div class="title">
+            <h1>About</h1>
+        </div>
+        <div class="box-title">
+            <h1>Skills</h1>
+        </div>
+        <div class="box">
+            <div class="item">
+                <h2 class="item-title">Languages</h2>
+                <div class="icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" />
+                </div>
+            </div>
+            <div class="item">
+                <h2 class="item-title">Framework and Libraries</h2>
+                <div class="icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />            
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" /> 
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg" />
+                </div>
+            </div>
+            <div class="item">
+                <h2 class="item-title">Programs</h2>
+                <div class="icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/anaconda/anaconda-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/insomnia/insomnia-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" />
+                </div>
+            </div>
+        </div>
+        <div class="box-title">
+            <h1>Education</h1>
+        </div>
+        <div class="box">
+            <div class="item">
+                <h2 class="item-title">College</h2>
+                <ul>
+                    <li>
+                        <h3>University of San Carlos</h3>
+                        <h3 class="highlight">Bachelor of Science in Computer Science</h3>
+                        <h4>2020-2023</h4>
+                    </li>
+                </ul>
+            </div>
+            <div class="item">
+                <h2 class="item-title">Senior High School</h2>
+                <ul>
+                    <li>
+                        <h3>University of San Carlos</h3>
+                        <h3 class="highlight">Accounting, Business, and Management Strand</h3>
+                        <h4>2017-2019</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="box-title">
+            <h1>Experience</h1>
+        </div>
+        <div class="box">
+            <div class="item">
+                <h2 class="item-title">Backend Developer</h2>
+                <ul>
+                    <li>
+                        <h3>Pixel8 Web Solutions & Consultancy Inc.</h3>
+                        <h3 class="highlight">Created Backend APIs for Microservices</h3>
+                        <h4>API Development (Documentation, Creation, Unit Test)</h4>
+                    </li>
+                </ul>
+            </div>
+            <div class="item">
+                <h2 class="item-title">Game Developer  / Creator</h2>
+                <ul>
+                    <li>
+                        <h3>JaM! Games</h3>
+                        <h3 class="highlight">Created and published a Mobile Game called Jump Frog</h3>
+                        <h4>Game Development</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="box-title">
+            <h1>Hobbies</h1>
+        </div>
+        <div class="box">
+            <div class="item">
+                <ul>
+                    <li><h3>Aquascaping and Fish Keeping</h3></li>
+                    <li><h3>Keyboard</h3></li>
+                    <li><h3>Video Games</h3></li>
+                    <li><h3>Anime and Manga</h3></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer id="contact" class="container">
+        <div class="title">
+            <h1>Get in touch</h1>
+        </div>
+        <div class="item">
+            <h2 class="item-title">Got any questions or want to work together? Feel free to contact me on:</h2>
+            <div class="icons contact">
+                <a href="https://www.linkedin.com/in/jomer-barcenilla-903403227" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" />
+                </a>
+                <a href="https://github.com/JomBarce" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jomerbarcenilla@gmail.com" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg" />
+                </a>           
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="JS/scripts.js"></script>
+</body>
+</html>
