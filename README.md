@@ -1,6 +1,8 @@
 # Portfolio Website
 
-## By: Jomer Barcenilla
+## Jomer Barcenilla
+
+Portfolio website of Jomer Barcenilla
 
 Created using:
 - HTML
