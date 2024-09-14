@@ -6,7 +6,7 @@
         "date": "2021",
         "type": "Game Development",
         "tech": ["C#", "Unity"],
-        "path": "Images/FrogJump/FrogJump.png",
+        "path": "./Images/FrogJump/FrogJump.png",
         "url": ""
     },
     {
@@ -16,7 +16,7 @@
         "date": "2023",
         "type": "Machine Learning / Deep Learning",
         "tech": ["Python", "Tensorflow", "NumPy", "Pandas", "Matplotlib", "Scikit-Learn"],
-        "path": "Images/Research.png",
+        "path": "./Images/Research.png",
         "url": "https://ieeexplore.ieee.org/document/10424991"
     },
     {
@@ -26,7 +26,7 @@
         "date": "2022",
         "type": "Application Development",
         "tech": ["C#", "Xamarin Forms", "MySQL"],
-        "path": "Images/Autobar/Autobar-Menu.png",
+        "path": "./Images/Autobar/Autobar-Menu.png",
         "url": "https://github.com/OG-Habit/AutoBar"
     }
     ,
@@ -37,7 +37,7 @@
         "date": "2021",
         "type": "Web Development",
         "tech": ["HTML", "JavaScript", "CSS", "PHP", "MySQL"],
-        "path": "Images/VHire/VHire.png",
+        "path": "./Images/VHire/VHire.png",
         "url": "https://github.com/JomBarce/VHire"
     }
     ,
@@ -48,7 +48,7 @@
         "date": "2022",
         "type": "Mobile Development",
         "tech": ["C#", "Xamarin Forms", "Firebase"],
-        "path": "Images/ChatApp/ChatApp.png",
+        "path": "./Images/ChatApp/ChatApp.png",
         "url": "https://github.com/JomBarce/Chat_App"
     },
     {
@@ -58,7 +58,7 @@
         "date": "2021",
         "type": "Web Development",
         "tech": ["HTML", "JavaScript", "CSS", "PHP", "MySQL", "SweetAlert"],
-        "path": "Images/HotelBooking/HotelBooking.png",
+        "path": "./Images/HotelBooking/HotelBooking.png",
         "url": "https://github.com/JomBarce/Hotel-Booking"
     }
     ,
@@ -69,7 +69,7 @@
         "date": "2022",
         "type": "Web Development",
         "tech": ["ReactJS"],
-        "path": "Images/Merakoni/Merakoni.png",
+        "path": "./Images/Merakoni/Merakoni.png",
         "url": "https://github.com/Idan-Garay/Merakoni"
     }
     ,
@@ -80,7 +80,7 @@
         "date": "2021",
         "type": "Application Development",
         "tech": ["Java", "MySQL"],
-        "path": "Images/InventorySys/InvSys.png",
+        "path": "./Images/InventorySys/InvSys.png",
         "url": ""
     }
     ,
@@ -91,7 +91,7 @@
         "date": "2021",
         "type": "Application Development",
         "tech": ["ServiceNow", "HTML", "JavaScript", "CSS"],
-        "path": "Images/BusSeatRsrv/BusSeatRsrv-Search.png",
+        "path": "./Images/BusSeatRsrv/BusSeatRsrv-Search.png",
         "url": ""
     }
     ,
@@ -102,7 +102,7 @@
         "date": "2021",
         "type": "Web Development",
         "tech": ["ReactJS"],
-        "path": "Images/ToDoApp.png",
+        "path": "./Images/ToDoApp.png",
         "url": ""
     }
     ,
@@ -113,7 +113,7 @@
         "date": "2021",
         "type": "Web Development",
         "tech": ["VueJS"],
-        "path": "Images/FoodShop/FoodShop.png",
+        "path": "./Images/FoodShop/FoodShop.png",
         "url": "https://github.com/JomBarce/FoodShop-Prefinals"
     }
     ,
@@ -124,7 +124,7 @@
         "date": "2020",
         "type": "Web Development",
         "tech": ["HTML", "JavaScript", "CSS"],
-        "path": "Images/CustomKybrd/CustomKybrd-Index.png",
+        "path": "./Images/CustomKybrd/CustomKybrd-Index.png",
         "url": "https://github.com/JomBarce/CustomKybrd"
     }
     ,
@@ -135,7 +135,7 @@
         "date": "2020",
         "type": "Web Development",
         "tech": ["HTML", "JavaScript", "CSS"],
-        "path": "Images/ATM/ATM.png",
+        "path": "./Images/ATM/ATM.png",
         "url": ""
     }
     ,
@@ -146,7 +146,7 @@
         "date": "2021",
         "type": "Application Development",
         "tech": ["Java"],
-        "path": "Images/BasketballScore.png",
+        "path": "./Images/BasketballScore.png",
         "url": ""
     }
 ]
