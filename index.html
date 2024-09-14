@@ -9,15 +9,20 @@
     <link rel="stylesheet" type="text/css" href="CSS/animation.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
-<body onload="showDivs(1)">
-    <header class="container" onload="foo()">
+<body>
+    <header class="container">
         <div class="head">
             <img src="./Images/Logo.png" class="dark" onclick="goToPage('index.html')">
-            <nav>
-                <a href="index.html#portfolio">Portfolio</a>
+            <nav class="nav-bar">
+                <a href="#works">Works</a>
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
             </nav>
+            <div class="burger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
         </div> 
     </header>
     <div id="main" class="flex-center">
@@ -45,20 +50,18 @@
             </div>
         </div>
     </div>
-    <!-- <div id="portfolio" class="container">
+    <div id="works" class="container">
         <div class="title">
-            <h1>Portfolio</h1>
+            <h1>Works</h1>
         </div>        
         <div class="item-center">
-            <img class="slides" src="./Images/OscarGyotaku.jpg" style="width:100%">
-            <img class="slides" src="./Images/Self.JPG" style="width:100%">
-            <img class="slides" src="./Images/Logo.png" style="width:100%"> 
+            <div id="slideshow"></div>
         </div>
         <div class="button-center">
             <button class="lr-button" onclick="plusDivs(-1)">&#10094;</button>
             <button class="lr-button" onclick="plusDivs(1)">&#10095;</button>
         </div>
-    </div> -->
+    </div>
     <div id="about" class="container">
         <div class="title">
             <h1>About</h1>

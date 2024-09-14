@@ -2,7 +2,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    flex: 100%;
+    flex: 1;
     font-family: 'Courier New', Courier, monospace;
     color: white;
     overflow-x: hidden;
@@ -16,24 +16,24 @@ nav {
     gap: 80px;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-a:hover { 
-    color: rgb(45, 58, 248);
-    transition: transform 0.2s;
-    transform: scale(1.1);
-}
-
 ul {
     margin: 0;
     padding: 5px 10px 5px 40px;
 }
 
 /* Class */
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-bar a:hover { 
+    color: rgb(45, 58, 248);
+    transition: transform 0.2s;
+    transform: scale(1.1);
+}
+
 .container {
     padding: 20px 100px;
     /* background-color: red;
@@ -156,7 +156,7 @@ ul {
 }
 
 .item {
-    flex: 100%;
+    flex: 1;
     background-color: rgba(0, 0, 0, 0.50);
     border-radius: 10px;
     margin: 10px;
@@ -196,24 +196,13 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 100%;
+    flex: 1;
     background-color: rgba(0, 0, 0, 0.50);
     margin: 10px;
     border-radius: 10px;
     border: solid 3px black;
     transition: transform 0.2s;
-}
-
-.item-center img {
-    /* height: 100px;    
-    object-fit: cover; */
-    padding: 10px;
-    transition: transform 0.2s;
-}
-
-.item-center img:hover {
-    transition: transform 0.2s;
-    transform: scale(1.01);
+    overflow: hidden;
 }
 
 .button-center {
@@ -225,7 +214,7 @@ ul {
 }
 
 .contact-button, .lr-button {
-    flex: 100%;
+    flex: 1;
     padding: 10px;
     color: white;
     border-radius: 10px;
@@ -247,6 +236,7 @@ ul {
 
 .lr-button {
     background: transparent;
+    font-size: 20px;
 }
 
 .lr-button:hover {
@@ -255,9 +245,55 @@ ul {
     background: rgb(45, 58, 248);
 }
 
-.slides {
-    display:none;
-    width: 100px !important;
+.project {
+    display: none;
+    padding: 15px;
+}
+
+.project.show {
+    display: block;
+    animation: appear 0.5s ease-in-out;
+}
+
+.project-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    gap: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.project-container:hover { 
+    color: rgb(45, 58, 248);
+    transition: transform 0.2s;
+    transform: scale(1.01);
+}
+
+.project img {
+    max-width: 500px;
+    max-height: 300px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    gap: 20px;
+}
+
+.project-content h2,
+.project-content p {
+    margin: 0;
+}
+
+.burger {
+    display: none;
 }
 
 /* Add Ons */
